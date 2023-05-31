@@ -1,4 +1,6 @@
 pandas
 streamlit
-
+AgGrid
+GridOptionsBuilder
+GridUpdateMode
 
