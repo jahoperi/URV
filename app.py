@@ -1,6 +1,5 @@
-from st_aggrid import AgGrid
 import pandas as pd
+import streamlit as st
+df = pd.read_csv("datos.csv")
 
-df = pd.read_csv('datos.csv')
-
-AgGrid(df)
+st.dataframe(df)
